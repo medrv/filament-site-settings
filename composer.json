@@ -1,0 +1,21 @@
+{
+    "name": "med/filament-site-settings",
+    "description": "Site settings plugin for FilamentPHP with light/dark logo, mail settings, and localization.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Med\\SiteSettings\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Med\\SiteSettings\\SiteSettingsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "spatie/laravel-settings": "^2.0"
+    }
+}
