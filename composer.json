@@ -1,5 +1,5 @@
 {
-    "name": "med/filament-site-settings",
+    "name": "medrv/filament-site-settings",
     "description": "Site settings plugin for FilamentPHP with light/dark logo, mail settings, and localization.",
     "type": "library",
     "autoload": {
