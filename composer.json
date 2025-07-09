@@ -4,13 +4,13 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Med\\SiteSettings\\": "src/"
+            "medrv\\SiteSettings\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Med\\SiteSettings\\SiteSettingsServiceProvider"
+                "medrv\\SiteSettings\\SiteSettingsServiceProvider"
             ]
         }
     },
